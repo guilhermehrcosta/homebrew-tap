@@ -7,7 +7,7 @@ cask "space-disk-free" do
   desc "Menu bar app that shows what uses disk space and cleans it up"
   homepage "https://github.com/guilhermehrcosta/space-disk-free"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Space Disk Free.app"
 
